@@ -1,3 +1,3 @@
 html_context = {
-    "display_github": False,
+    'display_github': False,
 }
