@@ -1,4 +1,4 @@
- -*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -8,41 +8,6 @@
 #
 # All configuration values have a default; values that are commented out
 # serve to show the default.
-
-
-import sys
-import os
-
-# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
-# otherwise, readthedocs.org uses their theme by default, so no need to specify it
-
-html_context = {
-  "display_github": False, # Add 'Edit on Github' link instead of 'View page source'
-  "last_updated": True,
-  "commit": False,
-}
-
-
-
-
-###########################################################################
-#          auto-created readthedocs.org specific configuration            #
-###########################################################################
-
-
-#
-# The following code was added during an automated build on readthedocs.org
-# It is auto created and injected for every build. The result is based on the
-# conf.py.tmpl file found in the readthedocs.org codebase:
-# https://github.com/rtfd/readthedocs.org/blob/master/readthedocs/doc_builder/templates/doc_builder/conf.py.tmpl
-#
-
 
 import sys
 import os.path
