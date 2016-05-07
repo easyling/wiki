@@ -1,1 +1,2 @@
-html_theme_path = './templates'
+html_theme = 'easyling'
+html_theme_path = './_templates'
