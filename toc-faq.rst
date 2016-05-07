@@ -1,0 +1,7 @@
+FAQ
+===
+
+.. toctree::
+   :glob:
+
+   faq/*
