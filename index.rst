@@ -13,7 +13,6 @@ Easyling 3-phase workflow
 =========================
 
 .. toctree::
-   :glob:
 
    quoting
    ingesting
